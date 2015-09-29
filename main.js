@@ -1,23 +1,18 @@
 
-// // greeting function
-// var greeting = function (name){
-//   return 'hello ' + name;
-// };
+// addition function
+function sum(x, y){
+  var answer = x + y;
+  return answer;
+};
 
-// // grab my elements
-// var nameInput = document.querySelector ('#your-name')
-// var greetBtn = document.querySelector('#greetme')
-// var helloElem = document.querySelector ('#greeting')
+// grab my elements
+var x = document.querySelector ('#num_one');
+var y = document.querySelector('#num_two');
 
-// // variable declarations
-// var fullName, greetingTxt;
+// variable declarations
+var x, y, answer;
 
-// // Function to perform the greeting
-// var greetMe = function() {
-//   fullName = nameInput.value;
-//   greetingTxt = greeting(fullName);
-//   helloElem.textContent = greetingTxt;
-// };
-
-// // Button click
-// greetBtn.addEventListener('click',greetMe);
+// Button click
+button.addEventListener("click", function(){
+  return answer
+});
