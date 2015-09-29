@@ -1,18 +1,17 @@
-
-// addition function
-function sum(x, y){
-  var answer = x + y;
-  return answer;
-};
-
 // grab my elements
-var x = document.querySelector ('#num_one');
+var x = document.querySelector('#num_one');
 var y = document.querySelector('#num_two');
+var a = document.querySelector('#answer');
+var calc = document.querySelector('#calculateBtn');
 
 // variable declarations
-var x, y, answer;
+var val;
+
+// addition function
+function sum(){
+  val = Number(x.value) + Number(y.value);
+  a.textContent = val;
+};
 
 // Button click
-button.addEventListener("click", function(){
-  return answer
-});
+calc.addEventListener("click", sum);
