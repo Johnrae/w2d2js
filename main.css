@@ -1,0 +1,38 @@
+h3 {
+  font-size: 3em;
+  font-family: helvetica;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.wrapper {
+  width: 200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font: 1.5em black;
+  font-family: helvetica;
+  background-color: #C1EDDC;
+}
+
+input {
+  width: 180px;
+  height: 60px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 4px;
+  border: solid white;
+  background-color: #FAE4EB;
+  margin: 0 auto;
+}
+
+.answer{
+  font-size: 3em;
+  font-family: helvetica;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
